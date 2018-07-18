@@ -63,7 +63,7 @@ selectedNames<-c(as.character(subdataFeaturesNames), "subject", "activity" )
 Data<-subset(Data,select=selectedNames)
 
 ## 7. Uses descriptive activity names to name the activities in the data set
-#  7.1.Read descriptive activity names from “activity_labels.txt”
+#  7.1.Read descriptive activity names from â€œactivity_labels.txtâ€
 
 activityLabels <- read.table(file.path(path_rf, "activity_labels.txt"),header = FALSE)
 # 7.2 facorize Variale activity in the data frame Data using descriptive activity names
